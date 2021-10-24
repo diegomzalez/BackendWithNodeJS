@@ -1,0 +1,32 @@
+{
+  "name": "backendwithnodejs",
+  "version": "1.0.0",
+  "description": "learning express",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon my-store/src/index",
+    "start": "node my-store/src/index",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomdevs/BackendWithNodeJS.git"
+  },
+  "author": "Diego González <diegom.develops@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomdevs/BackendWithNodeJS/issues"
+  },
+  "homepage": "https://github.com/diegomdevs/BackendWithNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1"
+  }
+}
